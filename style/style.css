@@ -168,4 +168,32 @@ a {
   color: #0A1902;
 }
 
+.fruits {
+  padding: 60px 0;
+}
+.fruits_row {
+  display: flex;
+  justify-content: space-between;
+  width: 33.33%;
+  padding: 15px;
+  position: relative;
+}
+.fruits_row ::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+}
+.fruits_image {
+  padding-bottom: 31px;
+  position: relative;
+}
+.fruits_image img {
+  top: 50%;
+  left: 50%;
+  max-height: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
