@@ -1,0 +1,31 @@
+.header {
+    padding: 30px 0;
+
+    &_wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &_logo {
+
+        img {
+            max-width: 154px;
+            max-height: 65px;
+        }
+
+    }
+
+    &_nav {
+
+
+        &-list {
+            display: flex;
+            align-items: center; 
+        }
+
+        &-item {
+            padding: 0 17px;
+        }
+    }
+}
