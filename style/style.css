@@ -20,11 +20,27 @@
   font-weight: 600;
 }
 .btn {
-  display: block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   height: 55px;
   font-weight: 500;
   color: #fff;
   background-color: #59BE29;
+  box-shadow: 0 10px 20px rgba(22, 52, 7, 0.1);
+  border-radius: 20px 80px;
+  padding: 5px 44px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.btn:hover {
+  box-shadow: 0 10px 20px rgba(22, 52, 7, 0.4);
+}
+.btn--ghostbtn {
+  background-color: #fff;
+  color: #59BE29;
+  border: 1px solid rgba(89, 190, 41, 0.3);
 }
 
 * {
