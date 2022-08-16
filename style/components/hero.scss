@@ -1,0 +1,25 @@
+.hero {
+    padding: 86px 0 60px;
+
+    &_wrap {
+        display: flex;
+    }
+
+    &_info {
+        width: 50%;
+        padding-right: 30px;
+    }
+
+    &_label {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 1.5;
+        letter-spacing: 1.1;
+        text-transform: uppercase;
+        color: $title-color;
+    }
+
+    &_title {
+
+    }
+}
