@@ -21,6 +21,7 @@
 }
 .btn {
   display: block;
+  height: 55px;
 }
 
 * {
