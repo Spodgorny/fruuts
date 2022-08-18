@@ -7,10 +7,16 @@
 
     &_info {
         width: 50%;
-        padding-right: 30px;
+        min-width: 530px;
+        padding-right: 35px;
     }
 
-    &_label {
+    &_img {
+        width: 50%;
+        position: relative;
+    }
+
+    &_lable {
         font-weight: 500;
         font-size: 25px;
         line-height: 1.5;
@@ -20,6 +26,62 @@
     }
 
     &_title {
+        font: $h1-font;
+        color: $primary-color;
+        margin-bottom: 35px;
+    }
 
+    &_descr {
+        margin-bottom: 25px;
+    }
+
+    &_btns {
+        display: flex;
+    }
+
+    &_btn {
+        &:not(:last-child) {
+            margin-right: 27px;
+        }
+    }
+
+    &_img-wrap {
+        position: absolute;
+        top: 50%;
+        z-index: -1;
+        right: -22%;
+        transform: translateY(-50%);
+        width: 150%;
+    }
+
+    &_img-bg {
+        width: 100%;
+    }
+
+    &_decor-1,
+    &_decor-2,
+    &_decor-3 {
+        position: absolute;
+    }
+
+    &_decor-1 {
+        max-width: 175px;
+        max-height: 109px;
+        top: 15%;
+        left: 15%;
+    }
+
+    &_decor-2 {
+        max-width: 119px;
+        max-height: 83px;
+        top: 15%;
+        right: 17%;
+    }
+
+    &_decor-3 {
+        max-width: 107px;
+        max-height: 56px;
+        top: 50%;
+        left: 22%;
     }
 }

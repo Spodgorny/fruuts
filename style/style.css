@@ -249,15 +249,66 @@ a {
 }
 .hero_info {
   width: 50%;
-  padding-right: 30px;
+  min-width: 530px;
+  padding-right: 35px;
 }
-.hero_label {
+.hero_img {
+  width: 50%;
+  position: relative;
+}
+.hero_lable {
   font-weight: 500;
   font-size: 25px;
   line-height: 1.5;
   letter-spacing: 1.1;
   text-transform: uppercase;
   color: #0A1902;
+}
+.hero_title {
+  font: 600 121px/0.9 "Baloo Chettan 2", Arial, Helvetica, sans-serif;
+  color: #59BE29;
+  margin-bottom: 35px;
+}
+.hero_descr {
+  margin-bottom: 25px;
+}
+.hero_btns {
+  display: flex;
+}
+.hero_btn:not(:last-child) {
+  margin-right: 27px;
+}
+.hero_img-wrap {
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+  right: -22%;
+  transform: translateY(-50%);
+  width: 150%;
+}
+.hero_img-bg {
+  width: 100%;
+}
+.hero_decor-1, .hero_decor-2, .hero_decor-3 {
+  position: absolute;
+}
+.hero_decor-1 {
+  max-width: 175px;
+  max-height: 109px;
+  top: 15%;
+  left: 15%;
+}
+.hero_decor-2 {
+  max-width: 119px;
+  max-height: 83px;
+  top: 15%;
+  right: 17%;
+}
+.hero_decor-3 {
+  max-width: 107px;
+  max-height: 56px;
+  top: 50%;
+  left: 22%;
 }
 
 /*# sourceMappingURL=style.css.map */
