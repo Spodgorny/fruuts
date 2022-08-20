@@ -3,9 +3,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 18px;
     height: 55px;
     font-weight: 500;
     color: $white;
+    border: 1px solid $primary-color;
     background-color: $primary-color;
     box-shadow: 0 10px 20px rgba(22, 52, 7, .1);
     border-radius: 20px 80px;
@@ -21,5 +23,11 @@
         background-color: $white;
         color: $primary-color;
         border: 1px solid rgba(89, 190, 41, .3);
+    }
+
+    &--normal {
+        height: 59px;
+        padding: 5px 30px;
+        border-radius: 10px;
     }
 }
